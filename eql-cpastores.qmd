@@ -1,0 +1,31 @@
+---
+title: "exploring Quarto and Latex"
+author: "Carlo Pastores Jr."
+format: pdf
+editor: visual
+---
+
+## the formula of Einstein is $E=mc^2$
+
+::: {#thm-subrule}
+## Substitution Rule
+
+if $u=g(x)$ is a differentiable function whose range is an interval $I$ and $f$ is a continuous on $I$, then
+
+$$
+\int f(g(x))\, dx = \int f(u)du.
+$$
+:::
+
+::: {#exm-subrule}
+1.  $\int(1-4)^\frac{1}{2}dx$
+
+    if we let $u = 1-4x$, then $du= -4dx$. we multiply the integrand by $\frac{-4}{-4}$. thus
+:::
+
+$$
+\begin{align}
+    2x - 5y &= 8 \\
+    3x + 9y &= -12
+\end{align}
+$$
