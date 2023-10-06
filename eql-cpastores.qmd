@@ -10,13 +10,13 @@ editor: visual
 # Integration by Substitution
 
 ::: {#htm:subrule}
-## Substitution Rule
+## 4.1.2(Substitution Rule)
 
 If $u=g(x)$ is a differentiable function whose range is an interval $I$ and $f$ is a continuous on $I$ then,
 
 $$
 \int f(g(x))\cdot g'(x)dx = \int f(u)du
-$$
+$$ **Example 4.1.12.**
 :::
 
 ::: {exm:subrule}
